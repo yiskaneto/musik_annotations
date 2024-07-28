@@ -1,2 +1,3 @@
-# studio_one_cheat_sheet
-Studio One Cheat Sheet
+# Studio One Cheat Sheet
+
+Theme by [hugo-theme-relearn](https://mcshelby.github.io/hugo-theme-relearn)
