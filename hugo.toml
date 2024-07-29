@@ -1,13 +1,16 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://example.local/'
 languageCode = 'en-us'
-title = 'Studio One Cheet Sheet'
+title = 'Musik Stuff Notes'
 theme = 'hugo-theme-relearn'
 
+
 [params]
-  subtitle = 'The Best Cheat Sheets'
+  collapsibleMenu = true
+  themeVariant = ['zen-dark']
+  highlightWrap = true
+  subtitle = 'Some Musik Cheat Sheets'
   [params.contact]
     email = 'to@be.replaced.local'
-  collapsibleMenu = true
 
 [frontmatter]
   date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
