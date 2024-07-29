@@ -1,11 +1,10 @@
 baseURL = 'https://yiskaneto.github.io/studio_one_cheat_sheet/'
-relativeURLs = false
 languageCode = 'en-us'
 title = '🎧 Musik Stuff Notes 🎸'
 theme = 'hugo-theme-relearn'
 
-
 [params]
+  enableEmoji = true
   collapsibleMenu = true
   themeVariant = ['zen-dark', 'neon']
   highlightWrap = true
@@ -19,8 +18,7 @@ theme = 'hugo-theme-relearn'
   lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
   publishDate = ['publishdate', 'pubdate', 'published', 'date']
 
-
 [markup]
   defaultMarkdownHandler = 'goldmark'
 
-enableEmoji = true
+
