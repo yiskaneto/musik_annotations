@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Studio One Cheet Sheet'
+theme = 'hugo-theme-relearn'
+
+[params]
+  subtitle = 'The Best Cheat Sheets'
+  [params.contact]
+    email = 'to@be.replaced.local'
+  collapsibleMenu = true
+
+[frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  expiryDate = ['expirydate', 'unpublishdate']
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+  publishDate = ['publishdate', 'pubdate', 'published', 'date']
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+
+enableEmoji = true
