@@ -1,12 +1,12 @@
 baseURL = 'https://example.local/'
 languageCode = 'en-us'
-title = 'Musik Stuff Notes'
+title = '🎧 Musik Stuff Notes 🎸'
 theme = 'hugo-theme-relearn'
 
 
 [params]
   collapsibleMenu = true
-  themeVariant = ['zen-dark']
+  themeVariant = ['zen-dark', 'neon']
   highlightWrap = true
   subtitle = 'Some Musik Cheat Sheets'
   [params.contact]
