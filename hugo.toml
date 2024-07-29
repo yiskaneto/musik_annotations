@@ -1,4 +1,5 @@
 baseURL = 'https://yiskaneto.github.io/studio_one_cheat_sheet/'
+relativeURLs = false
 languageCode = 'en-us'
 title = '🎧 Musik Stuff Notes 🎸'
 theme = 'hugo-theme-relearn'
