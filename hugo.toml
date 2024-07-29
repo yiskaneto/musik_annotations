@@ -7,6 +7,7 @@ theme = 'hugo-theme-relearn'
   subtitle = 'The Best Cheat Sheets'
   [params.contact]
     email = 'to@be.replaced.local'
+  collapsibleMenu = true
 
 [frontmatter]
   date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']

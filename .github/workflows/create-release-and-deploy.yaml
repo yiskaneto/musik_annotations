@@ -59,7 +59,7 @@ jobs:
       - name: Fetch latest version of GoHugo
         id: go_hugo_version
         run: |
-          echo 'HUGO_VERSION=$(curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | jq -r .tag_name | awk -v char="v" '{gsub(char,""); print}')' >> $GITHUB_ENV
+          echo HUGO_VERSION=`curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | jq -r .tag_name | awk -v char="v" '{gsub(char,""); print}'` >> /dev/null
 
       - name: Install Hugo CLI
         run: |
