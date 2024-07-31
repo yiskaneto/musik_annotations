@@ -1,4 +1,3 @@
-baseURL = 'https://mnotes.yiskaneto.net/musik_annotations/'
 relativeURLs = false
 languageCode = 'en-us'
 title = '🎧 Musik Stuff Notes 🎸'
